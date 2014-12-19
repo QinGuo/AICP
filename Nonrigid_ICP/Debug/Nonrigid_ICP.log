@@ -1,0 +1,22 @@
+﻿Build started 2014/9/1 14:53:22.
+     1>Project "D:\MyUtility\Nonrigid_ICP\Nonrigid_ICP\Nonrigid_ICP.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Nonrigid_ICP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:/Research Lib/EigenLib/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ArticulatedICP.cpp
+         ArticulatedICP.cpp
+     1>d:\myutility\nonrigid_icp\nonrigid_icp\articulatedicp.cpp(10): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\myutility\nonrigid_icp\nonrigid_icp\articulatedicp.cpp(19): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyUtility\Nonrigid_ICP\Debug\Nonrigid_ICP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyUtility\Nonrigid_ICP\Debug\Nonrigid_ICP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyUtility\Nonrigid_ICP\Debug\Nonrigid_ICP.lib" /MACHINE:X86 Debug\ArticulatedICP.obj
+         Debug\driver.obj
+         Debug\Skeleton.obj
+         Nonrigid_ICP.vcxproj -> D:\MyUtility\Nonrigid_ICP\Debug\Nonrigid_ICP.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Nonrigid_ICP.unsuccessfulbuild".
+         Touching "Debug\Nonrigid_ICP.lastbuildstate".
+     1>Done Building Project "D:\MyUtility\Nonrigid_ICP\Nonrigid_ICP\Nonrigid_ICP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.73

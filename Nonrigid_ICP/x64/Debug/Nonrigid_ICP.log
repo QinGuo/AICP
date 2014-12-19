@@ -1,0 +1,24 @@
+﻿Build started 19.12.2014 12:49:41.
+     1>Project "H:\MyUtility\Nonrigid_ICP\Nonrigid_ICP\Nonrigid_ICP.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../Lib /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ArticulatedICP.cpp driver.cpp Skeleton.cpp
+         Skeleton.cpp
+         driver.cpp
+     1>driver.cpp(44): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>driver.cpp(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>driver.cpp(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         ArticulatedICP.cpp
+     1>ArticulatedICP.cpp(65): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\MyUtility\Nonrigid_ICP\x64\Debug\Nonrigid_ICP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\MyUtility\Nonrigid_ICP\x64\Debug\Nonrigid_ICP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\MyUtility\Nonrigid_ICP\x64\Debug\Nonrigid_ICP.lib" /MACHINE:X64 x64\Debug\ArticulatedICP.obj
+         x64\Debug\driver.obj
+         x64\Debug\Skeleton.obj
+     1>driver.obj : error LNK2005: "double __cdecl distanceOfPoints(class Point,class Point)" (?distanceOfPoints@@YANVPoint@@0@Z) already defined in ArticulatedICP.obj
+     1>Skeleton.obj : error LNK2005: "double __cdecl distanceOfPoints(class Point,class Point)" (?distanceOfPoints@@YANVPoint@@0@Z) already defined in ArticulatedICP.obj
+     1>H:\MyUtility\Nonrigid_ICP\x64\Debug\Nonrigid_ICP.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "H:\MyUtility\Nonrigid_ICP\Nonrigid_ICP\Nonrigid_ICP.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.03
